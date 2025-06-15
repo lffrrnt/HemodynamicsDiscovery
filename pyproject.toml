@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "HemodynamicsDiscovery" # this is not a package
+version = "0.0.0"
+package-mode = false
+description = "Dependency management with poetry to run notebooks"
+# authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.12,<4.0"
+jupyterlab = ">=4.4"
+pysindy = ">=1.7"
+numpy = "<2.0"
+scipy = "<2.0"
+pandas = ">=2.3"
+matplotlib = ">=3.10"
+openpyxl = ">=3.1"
+# Add more libraries as needed
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
