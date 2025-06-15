@@ -15,7 +15,8 @@ arterial aneurysms (AA) and arteriovenous malformations (AVM), respectively.
 ## Requirements
 
 To manage package dependencies we use the poetry python package. Given an installation of a working
-python version 3.12 or above (upto 4.0), run the following commands from termina:
+python version 3.12 or above (upto 4.0), run the following commands in the terminal from the project
+root:
 
 ```bash
 pip install poetry
@@ -24,7 +25,7 @@ poetry install
 
 ## References
 
-<a name="ref1">[1]</a> Irem Topal, Alexander Cherevko, Yuri Bugay, Maxim Shishlenin,
+<a name="ref1">[1].</a> Irem Topal, Alexander Cherevko, Yuri Bugay, Maxim Shishlenin,
 Jean Barbier, Deniz Eroglu, Édgar Roldán,
 Roman Belousov. *Machine learning for cerebral blood vessels' malformations*, [arXiv:2411.16349](https://doi.org/10.48550/arXiv.2411.16349), 2024.
 
