@@ -8,9 +8,14 @@ Cerebral aneurysms and arteriovenous malformations are life-threatening hemodyna
 
 ## Contents
 
-The Jupyter notebooks `model_discovery_AA_patients.ipynb` and `model_discovery_AVM_patients.ipynb`
+* The Jupyter notebooks `model_discovery_AA_patients.ipynb` and `model_discovery_AVM_patients.ipynb`
 illustrate application of the SINDy approach to the clinical data of cerebral blood flow near
 arterial aneurysms (AA) and arteriovenous malformations (AVM), respectively.
+
+* The Jupyter notebook `classification_of_hemodynamics.ipynb` demonstrates the logistic classification
+of blood-flow pathologies by the inferred model parameters saved in `model_parameters.csv`.
+
+* The module `utils.py` implements utility functions used by the above notebook.
 
 ## Requirements
 

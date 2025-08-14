@@ -4,7 +4,7 @@ from enum import StrEnum
 import unittest
 import numpy as np
 import pandas as pd
-
+from IPython.display import Markdown, display
 
 class Stage(StrEnum):
 		"""Stage of the treatment
@@ -113,6 +113,10 @@ class DatasetTest(unittest.TestCase):
 
 	# def tearDown(self):
 		# ...
+
+def md(text_md: str):
+	"""Print Markdown text in jupyter lab"""
+	display(Markdown(text_md))
 
 if __name__ == "__main__":
 	unittest.main()
